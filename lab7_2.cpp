@@ -7,11 +7,11 @@ using namespace std;
 char findGrade(float x){
 	if (x > 90){
 		return 'A';
-	}else if (x >= 75 and x < 90){
+	}else if (x > 75 and x <= 90){
 		return 'B';
-	}else if (x >= 60 and x < 75){
+	}else if (x > 60 and x <= 75){
 		return 'C';
-	}else if (x >= 45 and x < 60){
+	}else if (x > 45 and x <= 60){
 		return 'D';
 	}else{
 		return 'F';
